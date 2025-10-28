@@ -2,7 +2,7 @@
 #include <string.h>
 
 struct Student {
-    char id[25];
+    char id[10];
     char name[105];
     int age;
 };
@@ -39,4 +39,3 @@ int main() {
 
     return 0;
 }
-
